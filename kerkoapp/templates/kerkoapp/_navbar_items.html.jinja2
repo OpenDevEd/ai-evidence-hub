@@ -2,17 +2,17 @@
 
 {% for item in config.kerko_composer.link_groups.navbar.get_ordered_links() %}
 {%- block navbar_items %}
-<li class="nav-item">
+{# <li class="nav-item">
     <a class="nav-link" href="https://aievidencehub.org/about.html">{{ _('About') }}</a>
 </li>
 <li class="nav-item">
     <a class="nav-link" href="https://aievidencehub.org/programmes.html">{{ _('Programmes') }}</a>
-</li>
+</li> #}
 <li class="nav-item active">
     <a class="nav-link" href="{{ url_for('kerko.search') }}" aria-current="true">{{ _("Evidence
         Library") }}</a>
 </li>
-<li class="nav-item">
+{# <li class="nav-item">
     <a class="nav-link" href="https://aievidencehub.org/open-datasets.html">{{ _('Open Datasets') }}</a>
 </li>
 <li class="nav-item">
@@ -20,7 +20,7 @@
 </li>
 <li class="nav-item">
     <a class="nav-link" href="https://aievidencehub.org/literature.html">{{ _('Literature') }}</a>
-</li>
+</li> #}
 {# <li class="nav-item">
     <a class="nav-link" href="https://opendeved.net/contact-us/">{{ _('Contact Us') }}</a>
 </li> #}

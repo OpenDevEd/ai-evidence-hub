@@ -155,19 +155,19 @@ value = "magdalen.beiting@gmail.com"
 [navbar]
 [[navbar.items]]
 text = "About"
-url = "https://aievidencehub.org/about.html"
+url = "https://www.ncme-aime.org/about.html"
 [[navbar.items]]
 text = "Open-datasets"
-url = "https://aievidencehub.org/open-datasets.html"
+url = "https://www.ncme-aime.org/open-datasets.html"
 # [[navbar.items]]
 # text = "Evidence Library"
 # url = "/"
 [[navbar.items]]
 text = "Events"
-url = "https://aievidencehub.org/events.html"
+url = "https://www.ncme-aime.org/events.html"
 [[navbar.items]]
 text = "Literature"
-url = "https://aievidencehub.org/literature.html"
+url = "https://www.ncme-aime.org/literature.html"
 # [[navbar.items]]
 # text = "Jobs"
 # url = "https://opendeved.net/jobs/"
