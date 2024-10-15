@@ -18,7 +18,7 @@
   --card-background: #fff;
   --white: #fff;
 
-  --primary: #e68124;
+  --primary: #002f68;
   --border: rgba(0, 0, 0, 0.2);
   --border-blue: #1e5b98;
   --blue: #5cacfd;
@@ -45,7 +45,7 @@
   --background-blue: rgba(92, 172, 253, 0.2);
   --white: rgba(255, 255, 255, 0.02);
 
-  --primary: #e68124;
+  --primary: #002f68;
   --border: rgba(255, 255, 255, 0.08);
   --border-blue: #1e5b98;
   --blue: #5cacfd99;
@@ -69,6 +69,7 @@ html {
     font-size: 16px;
   }
 }
+
 $font-size-base: 1rem;
 
 $h1-font-size: $font-size-base * 2.125; // 34px
