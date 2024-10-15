@@ -49,7 +49,7 @@ search = "search/search.html.jinja2"
 [kerko.zotero]
 
 locale = "en-GB"
-
+batch_size = 20
 # CAUTION: The URL's query string (after the '?') must be changed after any edit
 # to the CSL style, otherwise zotero.org might still use a previously cached
 # version of the file.
