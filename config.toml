@@ -71,16 +71,36 @@ enabled = false
 [kerko.facets.item_type]
 enabled = false
 
-# [kerko.facets.featured]
-# enabled = true
-# type = "collection"
-# collection_key = "JUDM2WBF"
-# filter_key = "featured"
-# title = "Featured publisher"
-# weight = 10
-# initial_limit = 15
-# initial_limit_leeway = 5
+[kerko.facets.empirical]
+enabled = true
+type = "collection"
+collection_key = "93FIW7A4"
+filter_key = "empirical"
+title = "Empirical studies"
+weight = 10
+initial_limit = 15
+initial_limit_leeway = 5
 
+
+[kerko.facets.conceptual]
+enabled = true
+type = "collection"
+collection_key = "93FIW7A4"
+filter_key = "empirical"
+title = "Empirical studies"
+weight = 10
+initial_limit = 15
+initial_limit_leeway = 5
+
+[kerko.facets.technical]
+enabled = true
+type = "collection"
+collection_key = "93FIW7A4"
+filter_key = "technical"
+title = "Technical methods"
+weight = 10
+initial_limit = 15
+initial_limit_leeway = 5
 # [kerko.facets.pubtype]
 # enabled = true
 # type = "collection"
