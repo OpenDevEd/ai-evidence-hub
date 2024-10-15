@@ -3,23 +3,23 @@
 {% for item in config.kerko_composer.link_groups.navbar.get_ordered_links() %}
 {%- block navbar_items %}
 <li class="nav-item">
-    <a class="nav-link" href="https://www.ncme-aime.org/about.html">{{ _('About') }}</a>
+    <a class="nav-link" href="https://ncme-aime.org/about.html">{{ _('About') }}</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="">{{ _('Programmes') }}</a>
+    <a class="nav-link" href="https://ncme-aime.org/programmes.html">{{ _('Programmes') }}</a>
 </li>
 <li class="nav-item active">
     <a class="nav-link" href="{{ url_for('kerko.search') }}" aria-current="true">{{ _("Evidence
         Library") }}</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="https://www.ncme-aime.org/open-datasets.html">{{ _('Open Datasets') }}</a>
+    <a class="nav-link" href="https://ncme-aime.org/open-datasets.html">{{ _('Open Datasets') }}</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="https://www.ncme-aime.org/events.html">{{ _('Events') }}</a>
+    <a class="nav-link" href="https://ncme-aime.org/events.html">{{ _('Events') }}</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="https://www.ncme-aime.org/literature.html">{{ _('Literature') }}</a>
+    <a class="nav-link" href="https://ncme-aime.org/literature.html">{{ _('Literature') }}</a>
 </li>
 {# <li class="nav-item">
     <a class="nav-link" href="https://opendeved.net/contact-us/">{{ _('Contact Us') }}</a>

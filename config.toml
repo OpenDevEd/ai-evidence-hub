@@ -136,14 +136,20 @@ url = "https://opendeved.net/terms-of-service/"
 
 # contact
 [[footer.contact.items]]
-field = "Email"
-value = "support@opendeved.net"
+field = "Co-chair"
+value = "christopher.ormerod@gmail.com"
 [[footer.contact.items]]
-field = "Phone"
-value = "+1-123-456-7890"
+field = "Co-chair"
+value = "jwhitmer@fas.org"
 [[footer.contact.items]]
-field = "Office Address"
-value = "123 Creativity Lane, Designville"
+field = "Secretary"
+value = "magdalen.beiting@gmail.com"
+# [[footer.contact.items]]
+# field = "Phone"
+# value = "+1-123-456-7890"
+# [[footer.contact.items]]
+# field = "Office Address"
+# value = "123 Creativity Lane, Designville"
 
 # navbar
 [navbar]
